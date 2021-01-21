@@ -14,7 +14,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketio(server, {
     cors: {
-        origin: "https://xenodochial-minsky-1da3e5.netlify.app/",
+        origin: "https://webchat-jsxgod.netlify.app",
         methods: ["GET", "POST"],
         credentials: true
     }
